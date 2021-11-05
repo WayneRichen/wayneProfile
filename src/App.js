@@ -2,12 +2,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-      <div className="flex-shrink-0">
-      </div>
-      <div>
-        <div className="text-xl font-medium text-black">ChitChat</div>
-        <p className="text-gray-500">You have a new message!</p>
+    <div className="max-w-screen-lg w-full mx-auto items-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+      <div className="avatar m-10 w-64 h-64 overflow-hidden bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 rounded-full">
+        <div className="m-1 w-full h-full rounded-full">
+
+          <img className="" src="https://cdngarenanow-a.akamaihd.net/games/lol/2020/LOLwebsite/champion/Ahri_0.jpg" />
+        </div>
       </div>
     </div>
   );
