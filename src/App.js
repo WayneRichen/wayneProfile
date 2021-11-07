@@ -4,22 +4,21 @@ import "./App.css";
 function App() {
   return (
     <Fragment>
-    <div className="main max-w-screen-lg w-full mx-auto items-center from-gray-800 to-gray-900 bg-gradient-to-b shadow-2xl">
-      <div className="flex flex-row p-10">
-        <div className="avatar p-1 w-16 h-16 md:w-64 md:h-64 overflow-hidden bg-gradient-to-br from-yellow-700 via-yellow-400 to-yellow-700 rounded-full">
-          <div className="w-full h-full bg-white rounded-full overflow-hidden border-solid border-1 border-yellow-700">
-            <img className="" src="https://cdngarenanow-a.akamaihd.net/games/lol/2020/LOLwebsite/champion/Ahri_0.jpg" />
-          </div>
-        </div>
-        <div>
-          <div className="h-full ml-20 flex items-center">
-            <div className="">
-              <div className="Name text-base md:text-4xl">Wayne Richen 22</div>
-              <div className="Job title text-base md:text-2xl">Web developer</div>
+    <div className="profile-and-menu max-w-screen-lg w-full mx-auto from-gray-800 to-gray-900 bg-gradient-to-b shadow-2xl">
+      <div className="profile-avatar py-10 sm:flex sm:items-center w-full">
+        <div className="avatar-box sm:ml-20 flex justify-center">
+          <div className="avatar mt-2 p-1 w-48 h-48 sm:w-64 sm:h-64 overflow-hidden bg-gradient-to-br from-yellow-700 via-yellow-400 to-yellow-700 rounded-full">
+            <div className="w-full h-full rounded-full overflow-hidden">
+              <img src="https://cdngarenanow-a.akamaihd.net/games/lol/2020/LOLwebsite/champion/Ahri_0.jpg" />
             </div>
           </div>
         </div>
+        <div className="profile-name-jobtitle mt-5 sm:ml-20 text-center sm:text-left">
+          <div className="Name text-4xl font-black">微日成 <span className="text-2xl">22</span></div>
+          <div className="Job title text-xl sm:text-2xl">網站工程師</div>
+        </div>
       </div>
+      {/* <div className="sm:text-yellow-500 md:text-red-500 lg:text-green-500">123</div> */}
       <div className="Skill area flex p-1">
         <button className="btn flex-1 m-1 bg-gray-800 hover:bg-gray-700 text-tan text-2xl font-black border-b-2 border-gray-400">
           開發技能
