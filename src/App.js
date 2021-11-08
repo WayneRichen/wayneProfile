@@ -18,8 +18,7 @@ function App() {
           <div className="Job title text-xl sm:text-2xl">網站工程師</div>
         </div>
       </div>
-      {/* <div className="sm:text-yellow-500 md:text-red-500 lg:text-green-500">123</div> */}
-      <div className="Skill area flex p-1">
+      <div className="Skill area hidden sm:flex p-1">
         <button className="btn flex-1 m-1 bg-gray-800 hover:bg-gray-700 text-tan text-2xl font-black border-b-2 border-gray-400">
           開發技能
         </button>
