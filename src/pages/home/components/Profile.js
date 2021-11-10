@@ -4,11 +4,11 @@ const Profile = ({ state }) => {
       <div className="profile-avatar py-10 sm:flex sm:items-center w-full">
         <div className="avatar-box sm:ml-20 flex justify-center">
           <div className="avatar mt-2 p-1 w-48 h-48 sm:w-64 sm:h-64 overflow-hidden bg-gradient-to-br from-yellow-700 via-yellow-400 to-yellow-700 rounded-full">
-            <div className="w-full h-full rounded-full overflow-hidden">
-              <img
+            <div className="w-full h-full rounded-full overflow-hidden" style={{backgroundImage: `url(${state.avatar})`, backgroundSize: `contain`}}>
+              {/* <img
                 alt="avatar"
-                src="https://cdngarenanow-a.akamaihd.net/games/lol/2020/LOLwebsite/champion/Ahri_0.jpg"
-              />
+                src={state.avatar}
+              /> */}
             </div>
           </div>
         </div>
