@@ -3,7 +3,7 @@ import Profile from "./components/Profile";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
-import { actionCreators } from "./state/index";
+import { actionCreators } from "../../state/index";
 import { useEffect } from "react";
 
 function App() {
