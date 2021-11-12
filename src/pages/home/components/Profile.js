@@ -4,11 +4,14 @@ const Profile = ({ state }) => {
       <div className="profile-avatar py-10 sm:flex sm:items-center w-full">
         <div className="avatar-box sm:ml-20 flex justify-center">
           <div className="avatar mt-2 p-1 w-48 h-48 sm:w-64 sm:h-64 overflow-hidden bg-gradient-to-br from-yellow-700 via-yellow-400 to-yellow-700 rounded-full">
-            <div className="w-full h-full rounded-full overflow-hidden" style={{backgroundImage: `url(${state.avatar})`, backgroundSize: `contain`}}>
-              {/* <img
+            <div className="w-full h-full rounded-full overflow-hidden">
+              <img
                 alt="avatar"
                 src={state.avatar}
-              /> */}
+                srcSet={state.avatar} //For lighthouse best practice rating
+                width="100%"
+                height="100%"
+              />
             </div>
           </div>
         </div>
