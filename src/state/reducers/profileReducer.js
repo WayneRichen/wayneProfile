@@ -1,4 +1,4 @@
-import defaultavatar from '../../images/defaultAvatar.png';
+import defaultavatar from "../../images/defaultAvatar.png";
 
 const profileInit = {
   name: "微日成",

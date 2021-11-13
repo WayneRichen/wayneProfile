@@ -13,9 +13,9 @@ function App() {
     fetch("http://localhost:3000/demo.json")
       .then((response) => response.json())
       .then((data) => getProfile(data))
-      .catch((error) => console.error("ErrorRRR:", error));
+      .catch((error) => console.error("Error:", error));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
-          //↑確定要這麼做 React 官方說可以 https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect
+  //↑確定要這麼做 React 官方說可以 https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect
   const state = useSelector((state) => state.profile);
 
   return (

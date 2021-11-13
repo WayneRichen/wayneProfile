@@ -16,8 +16,9 @@ const Profile = ({ state }) => {
           </div>
         </div>
         <div className="profile-name-jobtitle mt-5 sm:ml-20 text-center sm:text-left">
-          <div className="Name text-4xl font-black">
-            {state.name} <span className="text-2xl">{state.birthday}</span>
+          <div className="Name text-4xl font-bold">
+            {state.name} <span className="text-2xl">{state.age}</span>
+            {state.isBirthday && <span> &#x1F382;</span>}
           </div>
           <div className="Job title text-xl sm:text-2xl">{state.job}</div>
         </div>
