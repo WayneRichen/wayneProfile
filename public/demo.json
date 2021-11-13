@@ -1,6 +1,7 @@
 {
     "name": "Wayne Richen",
-    "avatar": "https://picsum.photos/200/200",
+    "avatar": "https://picsum.photos/400/400",
     "birthday": "1999/09/01",
-    "job": "Website Developer"
+    "job": "Website Developer",
+    "status": "Looking for job"
 }

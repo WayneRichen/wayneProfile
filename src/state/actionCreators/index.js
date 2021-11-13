@@ -1,6 +1,9 @@
+import defaultavatar from "../../images/defaultAvatar.png";
+
 export const getProfile = (profile) => {
   profile.age = getAge(profile.birthday);
   profile.isBirthday = isBirthday(profile.birthday);
+  profile.default_avatar = defaultavatar;
   return (dispatch) => {
     dispatch({
       type: "getProfile",
