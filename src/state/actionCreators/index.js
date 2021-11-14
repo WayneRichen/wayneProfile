@@ -12,6 +12,15 @@ export const getProfile = (profile) => {
   };
 };
 
+export const changeMenuActive = (menu) => {
+  return (dispatch) => {
+    dispatch({
+      type: "change_menu_active",
+      data: menu,
+    });
+  };
+};
+
 function getAge(birthday) {
   let today = new Date();
   let birthDate = new Date(birthday);

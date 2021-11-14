@@ -1,11 +1,11 @@
 .content {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg");
 }
-.btn {
+.menu-btn {
   position: relative;
   overflow: hidden;
 }
-.btn::after {
+.menu-btn::after {
   position: absolute;
   display: block;
   content: "";
@@ -17,6 +17,6 @@
   transform: skew(40deg, 0);
   transition: all 0.4s ease-in-out;
 }
-.btn:hover::after {
+.menu-btn:hover::after {
   left: 120%;
 }

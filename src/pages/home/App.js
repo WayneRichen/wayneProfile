@@ -8,7 +8,10 @@ import { useEffect } from "react";
 
 function App() {
   const dispatch = useDispatch();
-  const { getProfile } = bindActionCreators(actionCreators, dispatch);
+  const { getProfile, changeMenuActive } = bindActionCreators(
+    actionCreators,
+    dispatch
+  );
   useEffect(() => {
     fetch("http://localhost:3000/demo.json")
       .then((response) => response.json())
@@ -16,11 +19,11 @@ function App() {
       .catch((error) => console.error("Error:", error));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
   //↑確定要這麼做 React 官方說可以 https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect
-  const state = useSelector((state) => state.profile);
+  const state = useSelector((state) => state);
 
   return (
     <Fragment>
-      <Profile state={state} />
+      <Profile state={state} changeMenuActive={changeMenuActive} />
       <div className="max-w-screen-lg w-full mx-auto mb-6">
         <div className="relative content w-full bg-gray-400 h-56 bg-no-repeat bg-center">
           <div className="absolute backdrop-filter backdrop-brightness-25 backdrop-contrast-100 backdrop-blur-xs w-full h-full p-4  border-gray-400">
