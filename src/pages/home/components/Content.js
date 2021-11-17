@@ -16,11 +16,25 @@ const Content = ({ state, changeSkillActive }) => {
     }
   }
 
-
   function active(index) {
     const newActiveSkill = Object.assign({}, state.content);
-    newActiveSkill.develop.active = index;
-    changeSkillActive(newActiveSkill);
+    switch (state.menu.active) {
+      case "開發技能":
+        newActiveSkill.develop.active = index;
+        changeSkillActive(newActiveSkill);
+        break;
+      case "維運技能":
+        // console.log(state);
+        newActiveSkill.operation.active = index;
+        changeSkillActive(newActiveSkill);
+        break;
+      case "性格描述":
+        break;
+      case "作品集":
+        break;
+      default:
+        break;
+    }
   }
 
   return (
@@ -37,12 +51,14 @@ const Content = ({ state, changeSkillActive }) => {
                       src={skill.img}
                       width="100%"
                       height="100%"
-                      onClick={()=>{active(index)}}
+                      onClick={() => {
+                        active(index);
+                      }}
                     />
                   </div>
                 </div>
               ))}
-              {console.log(skillTab())}
+              {/* {console.log(skillTab())} */}
             </div>
             <div className="px-4">
               <p>{skillTab().skill[skillTab().active].content}</p>

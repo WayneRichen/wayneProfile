@@ -9,10 +9,8 @@ import { useEffect } from "react";
 
 function App() {
   const dispatch = useDispatch();
-  const { getProfile, changeMenuActive, getSkill, changeSkillActive } = bindActionCreators(
-    actionCreators,
-    dispatch
-  );
+  const { getProfile, changeMenuActive, getSkill, changeSkillActive } =
+    bindActionCreators(actionCreators, dispatch);
   useEffect(() => {
     fetch("http://localhost:3000/demo.json")
       .then((response) => response.json())
@@ -28,6 +26,8 @@ function App() {
       .then((data) => getSkill(data))
       .catch((error) => console.error("Error:", error));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  console.log(state)
 
   return (
     <Fragment>

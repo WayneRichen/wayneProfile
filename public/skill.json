@@ -39,11 +39,11 @@
             {
                 "title": "linux",
                 "img": "pingu",
-                "content": "2year"
+                "content": "linux desc"
             },{
                 "title": "docker",
                 "img": "q",
-                "content": "1yar"
+                "content": "docker desc"
             }
         ]
     }

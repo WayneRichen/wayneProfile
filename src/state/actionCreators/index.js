@@ -34,10 +34,10 @@ export const changeSkillActive = (skill) => {
   return (dispatch) => {
     dispatch({
       type: "change_skill_active",
-      data: skill
-    })
-  }
-}
+      data: skill,
+    });
+  };
+};
 
 function getAge(birthday) {
   let today = new Date();
