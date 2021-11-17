@@ -1,0 +1,50 @@
+{
+    "develop":{
+        "active": 1,
+        "skill": [
+            {
+                "title": "php",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/256_Php_logo-1024.png",
+                "content": "php des"
+            },{
+                "title": "laravel",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-1024.png",
+                "content": "laravel desc"
+            },{
+                "title": "magento",
+                "img": "https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Magento-1024.png",
+                "content": "magento desc"
+            },{
+                "title": "javascript",
+                "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-1024.png",
+                "content": "javascript desc"
+            },{
+                "title": "react",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png",
+                "content": "react desc"
+            },{
+                "title": "nodejs",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-1024.png",
+                "content": "nodejs desc"
+            },{
+                "title": "tailwindcss",
+                "img": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+                "content": "tailwindcss desc"
+            }
+        ]
+    },
+    "operation":{
+        "active": 0,
+        "skill": [
+            {
+                "title": "linux",
+                "img": "pingu",
+                "content": "2year"
+            },{
+                "title": "docker",
+                "img": "q",
+                "content": "1yar"
+            }
+        ]
+    }
+}

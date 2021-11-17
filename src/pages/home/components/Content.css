@@ -1,0 +1,35 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skillicon {
+    @apply rounded-xl cursor-pointer  m-0.5 sm:m-1;
+  }
+
+  .skilliconchild {
+    @apply rounded-xl overflow-hidden filter brightness-90 w-full h-full bg-gradient-to-b from-black hover:from-gray-900 to-gray-700 hover:to-gray-700;
+  }
+
+  .skilliconchild:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 0px);
+    height: 35%;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.2)
+    );
+  }
+
+  .skilliconchild:hover {
+    @apply filter brightness-100;
+  }
+
+  .skilliconchild-active {
+    @apply filter brightness-100;
+  }
+}

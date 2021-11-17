@@ -21,6 +21,24 @@ export const changeMenuActive = (menu) => {
   };
 };
 
+export const getSkill = (skill) => {
+  return (dispatch) => {
+    dispatch({
+      type: "getSkill",
+      data: skill,
+    });
+  };
+};
+
+export const changeSkillActive = (skill) => {
+  return (dispatch) => {
+    dispatch({
+      type: "change_skill_active",
+      data: skill
+    })
+  }
+}
+
 function getAge(birthday) {
   let today = new Date();
   let birthDate = new Date(birthday);

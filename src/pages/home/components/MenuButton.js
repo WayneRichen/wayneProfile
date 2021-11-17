@@ -4,7 +4,7 @@ const MenuButton = ({ state, changeMenuActive }) => {
     newActiveMenu.active = menuNo;
     changeMenuActive(newActiveMenu);
   }
-  
+
   return (
     <div className="Skill area flex p-0 sm:p-1">
       {state.menu.menuBtns.map((btn) => (
