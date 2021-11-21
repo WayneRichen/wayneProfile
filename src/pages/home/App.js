@@ -28,7 +28,6 @@ function App() {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   console.log(state)
-
   return (
     <Fragment>
       <Profile state={state} changeMenuActive={changeMenuActive} />

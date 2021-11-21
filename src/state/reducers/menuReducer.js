@@ -8,7 +8,7 @@ const reducer = (menu = menuInit, action) => {
     case "change_menu_active":
       return action.data;
     default:
-      menu.active = menu.menuBtns[0];
+      menu.active = menu.active ? menu.active : menu.menuBtns[0];
       return menu;
   }
 };

@@ -37,14 +37,20 @@
         "active": 0,
         "skill": [
             {
-                "title": "linux",
-                "img": "pingu",
-                "content": "linux desc"
+                "title": "Ubuntu",
+                "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/ubuntu-1024.png",
+                "content": "Ubuntu desc"
             },{
-                "title": "docker",
-                "img": "q",
-                "content": "docker desc"
+                "title": "Centos",
+                "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/centOS-1024.png",
+                "content": "Centos desc"
+            },
+            {
+                "title": "Docker",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png",
+                "content": "Docker desc"
             }
         ]
-    }
+    },
+    "personality":"Virgo"
 }
