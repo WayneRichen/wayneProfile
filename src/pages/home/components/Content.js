@@ -1,4 +1,5 @@
 import "./Content.css";
+import defaulimage from "../../../images/defaultImage.png";
 const Content = ({ state, changeSkillActive }) => {
   // console.log(state)
   function skillTab() {
@@ -69,42 +70,42 @@ const Content = ({ state, changeSkillActive }) => {
       );
       break;
     case "性格描述":
-      content = (<p>{state.content.personality}</p>);
+      content = <p>{state.content.personality}</p>;
       break;
     case "作品集":
       content = (
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className="card">
-          <div className="card-image-box">
-            <div className="card-image">
-              <img className="object-cover w-full h-full" src="https://i.imgur.com/uc3xT85.png" width="100%" height="100%" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {state.content.portfolio.map((portfolio) => (
+            <div
+              className="card"
+              key={portfolio.title}
+              onClick={() => {
+                window.open("https://stonk.tw", "_blank");
+              }}
+            >
+              <div className="card-image-box">
+                <div className="card-image">
+                  <img
+                    alt={portfolio.title}
+                    className="object-cover w-full h-full bg-auto bg-center bg-no-repeat"
+                    src={portfolio.img}
+                    width="100%"
+                    height="100%"
+                    style={{ backgroundImage: `url(${defaulimage})` }}
+                  />
+                  {/* <div className="w-full h-full" style={{backgroundImage: `url("https://picsum.photos/400/400")` }}>123</div> */}
+                </div>
+              </div>
+              <div className="w-2/3 p-2 px-5">
+                <div className="title font-bold text-xl">{portfolio.title}</div>
+                <div className="des overflow-ellipsis h-22 overflow-hidden text-gray-300 mt-1">
+                  {portfolio.desc}
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="w-2/3 p-2 px-5">
-            <div className="title font-bold text-xl">
-            What is Lorem Ipsum?  
-            </div>
-            <div className="des overflow-ellipsis h-22 overflow-hidden text-gray-300 mt-1">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </div>
-          </div>
+          ))}
         </div>
-        <div className="card">
-          <div className="card-image-box">
-            <div className="card-image">
-              <img className="object-cover w-full h-full" src="https://i.imgur.com/uc3xT85.png" width="100%" height="100%" />
-            </div>
-          </div>
-          <div className="w-2/3 p-2 px-5">
-            <div className="title font-bold text-xl">
-            What is Lorem Ipsum?  
-            </div>
-            <div className="des overflow-ellipsis h-22 overflow-hidden text-gray-300 mt-1">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </div>
-          </div>
-        </div>
-      </div>)
+      );
       break;
     default:
       break;

@@ -52,5 +52,17 @@
             }
         ]
     },
-    "personality":"Virgo"
+    "personality":"Virgo",
+    "portfolio": [{
+        "title": "Stonk.tw",
+        "desc": "meme",
+        "img": "https://i.imgur.com/pU3tYwy.png",
+        "link": "https://stonk.tw"
+    },
+    {
+        "title": "Stonk.tw2",
+        "desc": "meme",
+        "img": "https://i.imgur.com/pU3tYwy.png",
+        "link": "https://stonk.tw"
+    }]
 }
