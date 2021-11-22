@@ -52,7 +52,13 @@ const Content = ({ state, changeSkillActive }) => {
                   active(index);
                 }}
               >
-                <div className="skilliconchild">
+                <div
+                  className={
+                    skillTab().active === index
+                      ? "skilliconchild-active"
+                      : "skilliconchild"
+                  }
+                >
                   <img
                     alt={skill.title}
                     src={skill.img}
@@ -64,13 +70,20 @@ const Content = ({ state, changeSkillActive }) => {
             ))}
           </div>
           <div className="px-4">
+            <p className="text-lg font-bold">
+              {skillTab().skill[skillTab().active].title}
+            </p>
             <p>{skillTab().skill[skillTab().active].content}</p>
           </div>
         </div>
       );
       break;
     case "性格描述":
-      content = <p>{state.content.personality}</p>;
+      content = (
+        <div
+          dangerouslySetInnerHTML={{ __html: state.content.personality }}
+        ></div>
+      );
       break;
     case "作品集":
       content = (
@@ -84,16 +97,21 @@ const Content = ({ state, changeSkillActive }) => {
               }}
             >
               <div className="card-image-box">
-                <div className="card-image">
+                <div
+                  className="card-image w-full h-full bg-auto bg-center bg-no-repeat"
+                  style={{ backgroundImage: `url("${defaulimage}")` }}
+                >
                   <img
                     alt={portfolio.title}
-                    className="object-cover w-full h-full bg-auto bg-center bg-no-repeat"
+                    className="object-cover w-full h-full"
                     src={portfolio.img}
+                    srcSet=""
                     width="100%"
                     height="100%"
-                    style={{ backgroundImage: `url(${defaulimage})` }}
+                    onError={(event) => {
+                      event.target.style = "display: none";
+                    }}
                   />
-                  {/* <div className="w-full h-full" style={{backgroundImage: `url("https://picsum.photos/400/400")` }}>123</div> */}
                 </div>
               </div>
               <div className="w-2/3 p-2 px-5">

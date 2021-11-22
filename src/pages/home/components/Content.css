@@ -9,7 +9,7 @@
   }
 
   .skilliconchild {
-    @apply rounded-xl overflow-hidden filter brightness-90 w-full h-full bg-gradient-to-b from-black hover:from-gray-900 to-gray-700 hover:to-gray-700;
+    @apply rounded-xl overflow-hidden filter brightness-75 w-full h-full bg-gradient-to-b from-black hover:from-gray-900 to-gray-700 hover:to-gray-700;
   }
 
   .skilliconchild:after {
@@ -30,7 +30,20 @@
   }
 
   .skilliconchild-active {
-    @apply filter brightness-100;
+    @apply rounded-xl overflow-hidden filter brightness-100 w-full h-full bg-gradient-to-b from-gray-900 to-gray-700;
+  }
+
+  .skilliconchild-active:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 0px);
+    height: 35%;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.2)
+    );
   }
 
   .card {
@@ -42,10 +55,10 @@
   }
 
   .card-image-box {
-    @apply w-2/5 sm:w-1/3 h-full bg-cover bg-center filter brightness-90 overflow-hidden;
+    @apply w-2/5 sm:w-1/3 h-full bg-cover bg-center overflow-hidden;
   }
 
   .card-image {
-    @apply transition duration-500 w-full h-full bg-gray-300;
+    @apply transition duration-500 w-full h-full bg-gray-300 filter brightness-90;
   }
 }
