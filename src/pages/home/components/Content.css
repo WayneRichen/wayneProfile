@@ -9,7 +9,7 @@
   }
 
   .skilliconchild {
-    @apply rounded-xl overflow-hidden filter brightness-75 w-full h-full bg-gradient-to-b from-black hover:from-gray-900 to-gray-700 hover:to-gray-700;
+    @apply relative rounded-xl overflow-hidden filter brightness-75 w-full h-full bg-gradient-to-b from-black hover:from-gray-900 to-gray-700 hover:to-gray-700;
   }
 
   .skilliconchild:after {
@@ -30,7 +30,7 @@
   }
 
   .skilliconchild-active {
-    @apply rounded-xl overflow-hidden filter brightness-100 w-full h-full bg-gradient-to-b from-gray-900 to-gray-700;
+    @apply relative rounded-xl overflow-hidden filter brightness-100 w-full h-full bg-gradient-to-b from-gray-900 to-gray-700;
   }
 
   .skilliconchild-active:after {

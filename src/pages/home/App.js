@@ -12,7 +12,7 @@ function App() {
   const { getProfile, changeMenuActive, getSkill, changeSkillActive } =
     bindActionCreators(actionCreators, dispatch);
   useEffect(() => {
-    fetch("http://localhost:3000/demo.json")
+    fetch("/demo.json")
       .then((response) => response.json())
       .then((data) => getProfile(data))
       .catch((error) => console.error("Error:", error));

@@ -43,7 +43,7 @@ const Content = ({ state, changeSkillActive }) => {
     case "維運技能":
       content = (
         <div className="grid grid-cols-2 h-full divide-x divide-white">
-          <div className="grid grid-cols-4 sm:grid-cols-7 h-0 mr-0.5 sm:mr-1">
+          <div className="grid grid-cols-3 sm:grid-cols-7 h-0 mr-0.5 sm:mr-1">
             {skillTab().skill.map((skill, index) => (
               <div
                 className="skillicon"
