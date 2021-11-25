@@ -1,0 +1,62 @@
+{
+    "develop":{
+        "active": 0,
+        "skill": [
+            {
+                "title": "PHP",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/256_Php_logo-1024.png",
+                "content": "主力程式語言，2年以上 PHP 經驗，除了基本 PHP 語法以外還會使用 MVC 架構的框架。"
+            },{
+                "title": "Laravel",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-1024.png",
+                "content": "知名的 PHP 框架，1年以上使用經驗，會連接 MySQL、串接 API。曾做過報名網站。"
+            },{
+                "title": "Magento",
+                "img": "https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Magento-1024.png",
+                "content": "以 PHP 編寫的電商框架，1年使用經驗，熟架設、套件安裝、後端邏輯修改。"
+            },{
+                "title": "JavaScript",
+                "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-1024.png",
+                "content": "當了一年的後端，經常也要處理前端的問題，於是就把 JS 學起來了。"
+            },{
+                "title": "React",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png",
+                "content": "為了製作作品集，自學前端框架，有了之前 JS 的基礎，花1個月時間學會 React 並做出現在這個網頁。"
+            },{
+                "title": "Node.js",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-1024.png",
+                "content": "工作有接觸過以 Node.js 編寫的後端，略懂一些，目前學習中。"
+            },{
+                "title": "Tailwind CSS",
+                "img": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+                "content": "第一次自學前端使用的 CSS 框架，以 class 來寫樣式比起傳統另外寫 CSS 檔案來說真的非常方便，可以快速切版並減少在檔案間來回切換的時間。"
+            }
+        ]
+    },
+    "operation":{
+        "active": 0,
+        "skill": [
+            {
+                "title": "Ubuntu",
+                "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/ubuntu-1024.png",
+                "content": "不管是在開發或是 docker 都用得到 Ubuntu，會使用 Ubuntu 建立 LNMP。"
+            },{
+                "title": "CentOS",
+                "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/centOS-1024.png",
+                "content": "另外一個常見的伺服器 Linux 版本，同樣也會建立 LNMP，但隨著 CentOS 終止支援後重心也轉往 Ubuntu。"
+            },
+            {
+                "title": "Docker",
+                "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png",
+                "content": "製作 Docker 映像檔就像是建立一台伺服器一樣好玩，把專案會用到的環境跟專案原始碼一起包進 Docker，然後到任何一台電腦都能用一樣的條件開啟。"
+            }
+        ]
+    },
+    "personality":"<p class=\"mb-1\">處女座，要求完美，喜歡寫出漂亮的程式碼，思慮周全，不喜歡為了趕時間只做出「能用」的東西，希望做出的東西是事先經過詳細規劃。注重程式執行穩定性、執行效能，希望可以做出能長久使用的東西。因為趕工做出來的東西往往會因為沒有詳細規劃而存在潛在的問題，這些問題也許在一段時間後才會顯現出來，到時候再修就會很麻煩。</p><p class=\"mb-1\">資訊業技術變化非常地快，不斷學習新東西才不會讓自己被淘汰，所以我經常強迫自己脫離舒適圈、不斷學習新的東西，也順便訓練頭腦，讓自己的反應及記憶力不要隨著年紀上升而下降。</p>",
+    "portfolio": [{
+        "title": "股價行事曆",
+        "desc": "首次嘗試做前端，畫面使用 Tailwind CSS 佈局，前端邏輯使用純 JS，沒有使用任何框架。",
+        "img": "https://i.imgur.com/pU3tYwy.png",
+        "link": "https://stonk.tw"
+    }]
+}

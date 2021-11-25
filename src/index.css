@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .menu-btn {
+    @apply bg-gradient-to-t from-transparent hover:from-gray-800 text-tan text-xl sm:text-2xl font-bold border-b-2 border-gray-500 hover:border-gray-300;
+  }
+  .menu-btn-active {
+    @apply bg-gradient-to-t from-gray-800 text-tan text-xl sm:text-2xl font-bold border-b-2 border-gray-300;
+  }
+}
