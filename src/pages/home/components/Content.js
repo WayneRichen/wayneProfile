@@ -1,7 +1,7 @@
 import "./Content.css";
 import defaulimage from "../../../images/defaultImage.png";
+import contentbackground from "../../../images/contentbackground.jpg";
 const Content = ({ state, changeSkillActive }) => {
-  // console.log(state)
   function skillTab() {
     switch (state.menu.active) {
       case "開發技能":
@@ -80,7 +80,7 @@ const Content = ({ state, changeSkillActive }) => {
       break;
     case "性格描述":
       content = (
-        <div
+        <div className="ml-1"
           dangerouslySetInnerHTML={{ __html: state.content.personality }}
         ></div>
       );
@@ -93,7 +93,7 @@ const Content = ({ state, changeSkillActive }) => {
               className="card"
               key={portfolio.title}
               onClick={() => {
-                window.open("https://stonk.tw", "_blank");
+                window.open(portfolio.link, "_blank");
               }}
             >
               <div className="card-image-box">
@@ -131,7 +131,7 @@ const Content = ({ state, changeSkillActive }) => {
 
   return (
     <div className="max-w-screen-lg w-full mx-auto mb-6">
-      <div className="relative content w-full bg-gray-400 h-56 bg-no-repeat bg-center">
+      <div className="relative content w-full bg-gray-400 h-72 bg-no-repeat bg-center" style={{backgroundImage: `url(${contentbackground})`}}>
         <div className="backdrop-filter backdrop-brightness-25 backdrop-contrast-100 backdrop-blur-xs w-full h-full p-1 sm:p-4">
           {content}
         </div>

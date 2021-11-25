@@ -24,6 +24,8 @@ function App() {
   //↑確定要這麼做 React 官方說可以 https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect
   const state = useSelector((state) => state);
 
+  // let a = {"menu":["開發技能","維運技能"],"content":[{"items":[{"title":"aws","img":"img.jpg","active":true},{"title":"aws2","img":"img2.jpg","active":false}]},{"title":"linux","img":"pingu.jpg"}]}
+
   return (
     <Fragment>
       <Profile state={state} changeMenuActive={changeMenuActive} />

@@ -18,8 +18,7 @@ module.exports = {
       },
       boxShadow: {
         white: '0 0 30px -3px white',
-      },
-      // brightness: ['hover', 'focus']
+      }
     },
   },
   variants: {
