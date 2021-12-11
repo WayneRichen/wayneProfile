@@ -5,15 +5,12 @@ const Profile = ({ state, changeMenuActive }) => {
       <div className="profile-avatar py-10 sm:flex sm:items-center w-full">
         <div className="avatar-box sm:ml-20 flex justify-center">
           <div className="avatar mt-2 p-1 w-48 h-48 sm:w-64 sm:h-64 overflow-hidden bg-gradient-to-br from-yellow-700 via-yellow-400 to-yellow-700 rounded-full">
-            <div className="relative w-full h-full rounded-full overflow-hidden">
-              <img
-                src={state.profile.default_avatar}
-                srcSet={state.profile.default_avatar} // For lighthouse best practice rating
-                alt="default_avatar"
-                width="100%"
-                height="100%"
-              />
-              {/* ↑ Default avatar */}
+            <div
+              className="relative w-full h-full rounded-full overflow-hidden bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url("${state.profile.default_avatar}")`,
+              }}
+            >
               <img
                 className="absolute top-0 left-0"
                 src={state.profile.avatar}
