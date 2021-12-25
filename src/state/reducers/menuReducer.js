@@ -1,6 +1,6 @@
 const menuInit = {
   active: "",
-  menuBtns: ["開發技能", "維運技能", "性格描述", "作品集"],
+  menuBtns: [],
 };
 
 const reducer = (menu = menuInit, action) => {
@@ -8,7 +8,7 @@ const reducer = (menu = menuInit, action) => {
     case "change_menu_active":
       return action.data;
     default:
-      menu.active = menu.active ? menu.active : menu.menuBtns[0];
+      menu.active = menu.active ? menu.active : 0;
       return menu;
   }
 };

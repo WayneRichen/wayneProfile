@@ -6,7 +6,7 @@ const Profile = ({ state, changeMenuActive }) => {
         <div className="avatar-box sm:ml-20 flex justify-center">
           <div className="avatar mt-2 p-1 w-48 h-48 sm:w-64 sm:h-64 overflow-hidden bg-gradient-to-br from-yellow-700 via-yellow-400 to-yellow-700 rounded-full">
             <div
-              className="relative w-full h-full rounded-full overflow-hidden bg-cover bg-center bg-no-repeat"
+              className="relative w-full h-full rounded-full overflow-hidden bg-gray-800 bg-cover bg-center bg-no-repeat"
               style={{
                 backgroundImage: `url("${state.profile.default_avatar}")`,
               }}

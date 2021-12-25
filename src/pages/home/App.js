@@ -12,19 +12,17 @@ function App() {
   const { getProfile, changeMenuActive, getSkill, changeSkillActive } =
     bindActionCreators(actionCreators, dispatch);
   useEffect(() => {
-    fetch("/demo.json")
+    fetch(process.env.REACT_APP_GET_DATA_API)
       .then((response) => response.json())
-      .then((data) => getProfile(data))
-      .catch((error) => console.error("Error:", error));
-    fetch("/skill.json")
-      .then((response) => response.json())
-      .then((data) => getSkill(data))
+      .then((data) => {
+        getProfile(data.profile);
+        getSkill(data.content);
+        changeMenuActive(data.menu);
+      })
       .catch((error) => console.error("Error:", error));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
   //↑確定要這麼做 React 官方說可以 https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect
   const state = useSelector((state) => state);
-
-  // let a = {"menu":["開發技能","維運技能"],"content":[{"items":[{"title":"aws","img":"img.jpg","active":true},{"title":"aws2","img":"img2.jpg","active":false}]},{"title":"linux","img":"pingu.jpg"}]}
 
   return (
     <Fragment>
