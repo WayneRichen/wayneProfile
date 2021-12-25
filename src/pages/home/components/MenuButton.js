@@ -13,7 +13,7 @@ const MenuButton = ({ state, changeMenuActive }) => {
         <button
           key={btn}
           className={
-            state.menu.active === btn
+            state.menu.active === index
               ? "menu-btn flex-1 menu-btn-active"
               : "menu-btn flex-1"
           }
