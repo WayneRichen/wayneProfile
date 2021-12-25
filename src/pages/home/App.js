@@ -1,17 +1,19 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Profile from "./components/Profile";
 import Content from "./components/Content";
-import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
 import { actionCreators } from "../../state/index";
 import { useEffect } from "react";
+import ReactGA from "react-ga";
 
 function App() {
   const dispatch = useDispatch();
   const { getProfile, changeMenuActive, getSkill, changeSkillActive } =
     bindActionCreators(actionCreators, dispatch);
   useEffect(() => {
+    ReactGA.initialize("UA-206360385-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
     fetch(process.env.REACT_APP_GET_DATA_API)
       .then((response) => response.json())
       .then((data) => {

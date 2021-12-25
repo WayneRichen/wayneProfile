@@ -1,3 +1,5 @@
+import "./MenuButton.css";
+
 const MenuButton = ({ state, changeMenuActive }) => {
   function active(menuNo) {
     const newActiveMenu = Object.assign({}, state.menu);
