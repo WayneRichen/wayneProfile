@@ -4,33 +4,25 @@ import contentbackground from "../../../images/contentbackground.jpg";
 const Content = ({ state, changeSkillActive }) => {
   function skillTab() {
     switch (state.menu.active) {
-      case "開發技能":
+      case 0:
         return state.content.develop;
-      case "維運技能":
+      case 1:
         return state.content.operation;
-      case "性格描述":
-        break;
-      case "作品集":
-        break;
       default:
         break;
     }
   }
 
-  function active(index) {
+  function skillActive(index) {
     const newActiveSkill = Object.assign({}, state.content);
     switch (state.menu.active) {
-      case "開發技能":
+      case 0:
         newActiveSkill.develop.active = index;
         changeSkillActive(newActiveSkill);
         break;
-      case "維運技能":
+      case 1:
         newActiveSkill.operation.active = index;
         changeSkillActive(newActiveSkill);
-        break;
-      case "性格描述":
-        break;
-      case "作品集":
         break;
       default:
         break;
@@ -39,8 +31,8 @@ const Content = ({ state, changeSkillActive }) => {
 
   let content;
   switch (state.menu.active) {
-    case "開發技能":
-    case "維運技能":
+    case 0:
+    case 1: //不管是"開發技能"還是"維運技能"都是走這個 case，底下會再判斷
       content = (
         <div className="grid grid-cols-2 h-full divide-x divide-white">
           <div className="grid grid-cols-3 sm:grid-cols-7 h-0 mr-0.5 sm:mr-1">
@@ -49,7 +41,7 @@ const Content = ({ state, changeSkillActive }) => {
                 className="skillicon"
                 key={skill.title}
                 onClick={() => {
-                  active(index);
+                  skillActive(index);
                 }}
               >
                 <div
@@ -78,7 +70,7 @@ const Content = ({ state, changeSkillActive }) => {
         </div>
       );
       break;
-    case "性格描述":
+    case 2:
       content = (
         <div
           className="ml-1"
@@ -86,7 +78,7 @@ const Content = ({ state, changeSkillActive }) => {
         ></div>
       );
       break;
-    case "作品集":
+    case 3:
       content = (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {state.content.portfolio.map((portfolio) => (

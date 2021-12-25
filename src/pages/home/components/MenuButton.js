@@ -7,7 +7,7 @@ const MenuButton = ({ state, changeMenuActive }) => {
 
   return (
     <div className="Skill area flex p-0 sm:p-1">
-      {state.menu.menuBtns.map((btn) => (
+      {state.menu.menuBtns.map((btn, index) => (
         <button
           key={btn}
           className={
@@ -16,7 +16,7 @@ const MenuButton = ({ state, changeMenuActive }) => {
               : "menu-btn flex-1"
           }
           onClick={() => {
-            active(btn);
+            active(index);
           }}
         >
           {btn}
