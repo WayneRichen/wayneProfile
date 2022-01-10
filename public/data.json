@@ -91,7 +91,7 @@
             {
                 "title": "股價行事曆",
                 "desc": "首次嘗試做前端，畫面使用 Tailwind CSS 佈局，前端邏輯使用純 JS，沒有使用任何框架。",
-                "img": "https://i.imgur.com/pU3tYwy.png",
+                "img": "/static/images/stonk.tw.png",
                 "link": "https://stonk.tw"
             }
         ]
