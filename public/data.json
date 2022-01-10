@@ -22,12 +22,12 @@
                 {
                     "title": "PHP",
                     "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/256_Php_logo-1024.png",
-                    "content": "主力程式語言，2年以上 PHP 經驗，除了基本 PHP 語法以外還會使用 MVC 架構的框架。"
+                    "content": "主力程式語言，2年以上 PHP 經驗，除了基本 PHP 語法以外還會使用 MVC 架構的框架（Yii, Laravel, Magento）。"
                 },
                 {
                     "title": "Laravel",
                     "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-1024.png",
-                    "content": "知名的 PHP 框架，1年以上使用經驗，會連接 MySQL、串接 API。曾做過報名網站。"
+                    "content": "知名的 PHP 框架，1年以上使用經驗，會連接 MySQL、製作 RESTful API。曾做過報名網站、前後端分離後台。"
                 },
                 {
                     "title": "Magento",
@@ -47,7 +47,7 @@
                 {
                     "title": "Node.js",
                     "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-1024.png",
-                    "content": "工作有接觸過以 Node.js 編寫的後端，略懂一些，目前學習中。"
+                    "content": "工作有接觸過以 Node.js 編寫的後端，這個網站的後台也是由 Node.js 編寫而成。"
                 },
                 {
                     "title": "Tailwind CSS",
@@ -62,17 +62,17 @@
                 {
                     "title": "Ubuntu",
                     "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/ubuntu-1024.png",
-                    "content": "不管是在開發或是 docker 都用得到 Ubuntu，會使用 Ubuntu 建立 LNMP。"
+                    "content": "不管是在開發或是 docker 都用得到 Ubuntu，會使用 Ubuntu 建立 LNMP、設定排程。"
                 },
                 {
                     "title": "CentOS",
                     "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/centOS-1024.png",
-                    "content": "另外一個常見的伺服器 Linux 版本，同樣也會建立 LNMP，但隨著 CentOS 終止支援後重心也轉往 Ubuntu。"
+                    "content": "另外一個常見的 Linux 伺服器版本，同樣也會建立 LNMP，但隨著 CentOS 終止支援後重心也轉往 Ubuntu。"
                 },
                 {
                     "title": "Docker",
                     "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png",
-                    "content": "製作 Docker 映像檔就像是建立一台伺服器一樣好玩，把專案會用到的環境跟專案原始碼一起包進 Docker，然後到任何一台電腦都能用一樣的條件開啟。"
+                    "content": "製作 Docker 映像檔就像是建立一台伺服器一樣好玩，把專案會用到的環境跟專案原始碼一起包進 Docker，然後到任何一台電腦都能用一樣的條件開啟，因此更適合用於無伺服器架構。"
                 }
             ]
         },
@@ -85,5 +85,13 @@
                 "link": "https://stonk.tw"
             }
         ]
+    },
+    "experience": {
+        "title": "經歷",
+        "history": [{
+            "company": "飛象資訊股份有限公司",
+            "jobtitle":"2019.10 - 2021.7｜後端工程師／維運工程師／網管",
+            "jobs":["使用 Yii 框架製作競標網站（含：管理員介面、發文管理系統、留言、網站橫幅編輯）","使用 Yii 框架製作公車預約平台（含：簡訊發送功能、預約結果查詢、每日預約場次人數報表產生、寄信功能）","電子廠形象網站客製化 Magento 型錄上傳管理套件","使用 Laravel 框架製作呼吸分析平台（含：API 串接、Docker 技術）","電商網站客製化 Magento 前後端分離（含：API 串接、Docker 技術、單元測試、CI/CD、AWS 應用）","導入 Docker 技術至開發團隊","協助導入 ISO27001 至公司","主機維護（PHP 版本升級、資料庫定期備份、SSL 憑證更新）"]
+        }]
     }
 }
