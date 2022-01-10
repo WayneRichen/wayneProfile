@@ -73,6 +73,11 @@
                     "title": "Docker",
                     "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png",
                     "content": "製作 Docker 映像檔就像是建立一台伺服器一樣好玩，把專案會用到的環境跟專案原始碼一起包進 Docker，然後到任何一台電腦都能用一樣的條件開啟，因此更適合用於無伺服器架構。"
+                },
+                {
+                    "title": "AWS",
+                    "img": "https://buzzorange.com/wp-content/uploads/sites/2/2019/05/AWS_logo_Square.png",
+                    "content": "使用 AWS 可以更快速的部署應用程式，實現無伺服器架構，省去繁雜維護伺服器的工作，曾使用過：EC2、ECS、ElastiCache、RDS、S3、CloudFront、Route 53。"
                 }
             ]
         },
