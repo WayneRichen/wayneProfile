@@ -21,38 +21,43 @@
             "skill": [
                 {
                     "title": "PHP",
-                    "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/256_Php_logo-1024.png",
+                    "img": "/static/icons/php.png",
                     "content": "主力程式語言，2年以上 PHP 經驗，除了基本 PHP 語法以外還會使用 MVC 架構的框架（Yii, Laravel, Magento）。"
                 },
                 {
                     "title": "Laravel",
-                    "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-1024.png",
+                    "img": "/static/icons/laravel.svg",
                     "content": "知名的 PHP 框架，1年以上使用經驗，會連接 MySQL、製作 RESTful API。曾做過報名網站、前後端分離後台。"
                 },
                 {
                     "title": "Magento",
-                    "img": "https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Magento-1024.png",
+                    "img": "/static/icons/magento.svg",
                     "content": "以 PHP 編寫的電商框架，1年使用經驗，熟架設、套件安裝、後端邏輯修改。"
                 },
                 {
                     "title": "JavaScript",
-                    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-1024.png",
+                    "img": "/static/icons/js.svg",
                     "content": "當了一年的後端，經常也要處理前端的問題，於是就把 JS 學起來了。"
                 },
                 {
                     "title": "React",
-                    "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png",
+                    "img": "/static/icons/react.svg",
                     "content": "為了製作作品集，自學前端框架，有了之前 JS 的基礎，花1個月時間學會 React 並做出現在這個網頁。"
                 },
                 {
                     "title": "Node.js",
-                    "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-1024.png",
+                    "img": "/static/icons/nodejs.svg",
                     "content": "工作有接觸過以 Node.js 編寫的後端，這個網站的後台也是由 Node.js 編寫而成。"
                 },
                 {
                     "title": "Tailwind CSS",
-                    "img": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+                    "img": "/static/icons/tailwindcss-icon.svg",
                     "content": "第一次自學前端使用的 CSS 框架，以 class 來寫樣式比起傳統另外寫 CSS 檔案來說真的非常方便，可以快速切版並減少在檔案間來回切換的時間。"
+                },
+                {
+                    "title": "Git",
+                    "img": "/static/icons/git.svg",
+                    "content":"程式開發人員必備技能，除了會建 Repository、分支以及合併分支以外，還熟悉 CLI 模式底下操作，還有操作過 GitHub Actions。"
                 }
             ]
         },
@@ -61,22 +66,22 @@
             "skill": [
                 {
                     "title": "Ubuntu",
-                    "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/ubuntu-1024.png",
+                    "img": "/static/icons/ubuntu.svg",
                     "content": "不管是在開發或是 docker 都用得到 Ubuntu，會使用 Ubuntu 建立 LNMP、設定排程。"
                 },
                 {
                     "title": "CentOS",
-                    "img": "https://cdn0.iconfinder.com/data/icons/flat-round-system/512/centOS-1024.png",
+                    "img": "/static/icons/centos.svg",
                     "content": "另外一個常見的 Linux 伺服器版本，同樣也會建立 LNMP，但隨著 CentOS 終止支援後重心也轉往 Ubuntu。"
                 },
                 {
                     "title": "Docker",
-                    "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png",
+                    "img": "/static/icons/docker.svg",
                     "content": "製作 Docker 映像檔就像是建立一台伺服器一樣好玩，把專案會用到的環境跟專案原始碼一起包進 Docker，然後到任何一台電腦都能用一樣的條件開啟，因此更適合用於無伺服器架構。"
                 },
                 {
                     "title": "AWS",
-                    "img": "https://buzzorange.com/wp-content/uploads/sites/2/2019/05/AWS_logo_Square.png",
+                    "img": "/static/icons/aws.webp",
                     "content": "使用 AWS 可以更快速的部署應用程式，實現無伺服器架構，省去繁雜維護伺服器的工作，曾使用過：EC2、ECS、ElastiCache、RDS、S3、CloudFront、Route 53。"
                 }
             ]
