@@ -61,7 +61,7 @@ const Content = ({ state, changeSkillActive }) => {
               </div>
             ))}
           </div>
-          <div className="px-4">
+          <div className="pl-2 sm:pl-4">
             <p className="text-lg font-bold">
               {skillTab().skill[skillTab().active].title}
             </p>
@@ -123,7 +123,7 @@ const Content = ({ state, changeSkillActive }) => {
   }
 
   return (
-    <div className="max-w-screen-lg w-full mx-auto mb-6">
+    <div className="max-w-screen-lg w-full mx-auto">
       <div
         className="relative content w-full bg-gray-400 h-72 bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${contentbackground})` }}

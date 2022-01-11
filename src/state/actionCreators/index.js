@@ -39,6 +39,15 @@ export const changeSkillActive = (skill) => {
   };
 };
 
+export const getExperience = (experience) => {
+  return (dispatch) => {
+    dispatch({
+      type: "get_experience",
+      data: experience,
+    });
+  };
+};
+
 function getAge(birthday) {
   let today = new Date();
   let birthDate = new Date(birthday);

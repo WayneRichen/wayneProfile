@@ -1,4 +1,5 @@
 import MenuButton from "./MenuButton";
+
 const Profile = ({ state, changeMenuActive }) => {
   return (
     <div className="relative profile-and-menu max-w-screen-lg w-full mx-auto from-gray-800 to-gray-900 bg-gradient-to-b shadow-2xl overflow-hidden">
@@ -30,6 +31,19 @@ const Profile = ({ state, changeMenuActive }) => {
           </div>
           <div className="Job title text-xl sm:text-2xl">
             {state.profile.job}
+          </div>
+          <div className="mt-1 sm:mt-4 -mb-4 sm:-mb-11 flex flex-row w-48 m-auto">
+            {state.profile.socialmedia.map((socialmedia) => (
+              <div
+                className="cursor-pointer w-full h-full mx-1"
+                key={socialmedia.title}
+                onClick={() => {
+                  window.open(socialmedia.link, "_blank");
+                }}
+              >
+                <img alt={socialmedia.title} src={socialmedia.img} />
+              </div>
+            ))}
           </div>
         </div>
       </div>
