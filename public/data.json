@@ -58,6 +58,11 @@
                     "title": "Git",
                     "img": "/static/icons/git.svg",
                     "content":"程式開發人員必備技能，除了會建 Repository、分支以及合併分支以外，還熟悉 CLI 模式底下操作，還有操作過 GitHub Actions。"
+                },
+                {
+                    "title": "API",
+                    "img": "/static/icons/api.png",
+                    "content": "身為後端工程師經常會需要開 API 給前端做資料對接，不管是 PHP 接 MySQL 或是 Node.js 接 MongoDB 都沒有問題。"
                 }
             ]
         },
