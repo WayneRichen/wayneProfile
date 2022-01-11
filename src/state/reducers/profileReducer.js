@@ -6,6 +6,7 @@ const profileInit = {
   birthday: "1999/09/01",
   job: "網站工程師",
   status: "",
+  socialmedia: [],
 };
 
 const reducer = (profile = profileInit, action) => {

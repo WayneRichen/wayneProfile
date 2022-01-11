@@ -4,7 +4,34 @@
         "avatar": "/static/images/IMG_2530.jpg",
         "birthday": "1999/09/01",
         "job": "網站工程師",
-        "status": ""
+        "status": "",
+        "socialmedia": [
+            {
+                "title": "Email",
+                "link": "mailto:wayne.richen@gmail.com",
+                "img": "/static/icons/email.svg"
+            },
+            {
+                "title": "YouTube",
+                "link": "https://www.youtube.com/channel/UC-I5jPQodzXQPzaB2ARQk4A",
+                "img": "/static/icons/youtube.svg"
+            },
+            {
+                "title": "Instagram",
+                "link": "https://www.instagram.com/wayne.richen/",
+                "img": "/static/icons/instagram.svg"
+            },
+            {
+                "titile": "GitHub",
+                "link": "https://github.com/WayneRichen",
+                "img": "/static/icons/github.svg"
+            },
+            {
+                "title": "LinkedIn",
+                "link": "https://www.linkedin.com/in/waynerichen/",
+                "img": "/static/icons/linkedin.svg"
+            }
+        ]
     },
     "menu": {
         "active": 0,
