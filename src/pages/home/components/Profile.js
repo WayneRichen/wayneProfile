@@ -32,7 +32,7 @@ const Profile = ({ state, changeMenuActive }) => {
           <div className="Job title text-xl sm:text-2xl">
             {state.profile.job}
           </div>
-          <div className="mt-1 sm:mt-4 -mb-4 sm:-mb-11 flex flex-row w-48 m-auto">
+          <div className="mt-1 sm:mt-4 -mb-4 sm:-mb-11 flex flex-row w-32 mx-auto sm:ml-0">
             {state.profile.socialmedia.map((socialmedia) => (
               <div
                 className="cursor-pointer w-full h-full mx-1"

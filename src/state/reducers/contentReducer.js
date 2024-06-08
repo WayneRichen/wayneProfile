@@ -1,11 +1,11 @@
 const initSkill = {
   develop: {
     active: 0,
-    skill: [{ title: "", img: "http", content: "哎呀！發生問題！" }],
+    skill: [{ title: "", img: "http", content: "Loading..." }],
   },
   operation: {
     active: 0,
-    skill: [{ title: "", img: "http", content: "哎呀！發生問題！" }],
+    skill: [{ title: "", img: "http", content: "Loading..." }],
   },
 };
 const reducer = (skill = initSkill, action) => {

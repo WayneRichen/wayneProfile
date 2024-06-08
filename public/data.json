@@ -1,25 +1,15 @@
 {
     "profile": {
-        "name": "微日成",
-        "avatar": "/static/images/IMG_2530.jpg",
+        "name": "Wayne Richen",
+        "avatar": "/static/images/unnamed.jpg",
         "birthday": "1999/09/01",
-        "job": "網站工程師",
+        "job": "Website Engineer",
         "status": "",
         "socialmedia": [
             {
                 "title": "Email",
                 "link": "mailto:wayne.richen@gmail.com",
                 "img": "/static/icons/email.svg"
-            },
-            {
-                "title": "YouTube",
-                "link": "https://www.youtube.com/channel/UC-I5jPQodzXQPzaB2ARQk4A",
-                "img": "/static/icons/youtube.svg"
-            },
-            {
-                "title": "Instagram",
-                "link": "https://www.instagram.com/wayne.richen/",
-                "img": "/static/icons/instagram.svg"
             },
             {
                 "title": "GitHub",
@@ -36,10 +26,10 @@
     "menu": {
         "active": 0,
         "menuBtns": [
-            "開發技能",
-            "維運技能",
-            "性格描述",
-            "作品集"
+            "Development",
+            "Operations",
+            "Personality",
+            "Portfolio"
         ]
     },
     "content": {
@@ -49,47 +39,42 @@
                 {
                     "title": "PHP",
                     "img": "/static/icons/php.png",
-                    "content": "主力程式語言，2年以上 PHP 經驗，除了基本 PHP 語法以外還會使用 MVC 架構的框架（Yii, Laravel, Magento）。"
+                    "content": "Main programming language, more than 4 years experience. In addition to basic PHP syntax, can also use MVC architecture frameworks (Laravel, CodeIgniter)."
                 },
                 {
                     "title": "Laravel",
                     "img": "/static/icons/laravel.svg",
-                    "content": "知名的 PHP 框架，1年以上使用經驗，會連接 MySQL、製作 RESTful API。曾做過報名網站、前後端分離後台。"
-                },
-                {
-                    "title": "Magento",
-                    "img": "/static/icons/magento.svg",
-                    "content": "以 PHP 編寫的電商框架，1年使用經驗，熟架設、套件安裝、後端邏輯修改。"
+                    "content": "Familiar with various functions of Laravel, such as Collection, Helper, Middleware, Queue, Job...etc. Have used Laravel to process large amounts of data, such as data cleaning."
                 },
                 {
                     "title": "JavaScript",
                     "img": "/static/icons/js.svg",
-                    "content": "當了一年的後端，經常也要處理前端的問題，於是就把 JS 學起來了。"
+                    "content": "Familiar with vanilla JavaScript and understand the usage of frontend frameworks such as React."
                 },
                 {
                     "title": "React",
                     "img": "/static/icons/react.svg",
-                    "content": "為了製作作品集，自學前端框架，有了之前 JS 的基礎，花1個月時間學會 React 並做出現在這個網頁。"
+                    "content": "In order to make a portfolio, learned frontend framework by myself. With the foundation of JS, I spent 1 month learning React and made this website."
                 },
                 {
                     "title": "Node.js",
                     "img": "/static/icons/nodejs.svg",
-                    "content": "工作有接觸過以 Node.js 編寫的後端，這個網站的後台也是由 Node.js 編寫而成。"
+                    "content": "Just like other backend frameworks, understand Node.js usage."
                 },
                 {
                     "title": "Tailwind CSS",
                     "img": "/static/icons/tailwindcss-icon.svg",
-                    "content": "第一次自學前端使用的 CSS 框架，以 class 來寫樣式比起傳統另外寫 CSS 檔案來說真的非常方便，可以快速切版並減少在檔案間來回切換的時間。"
+                    "content": "Using classes to write styles is really convenient compared to the traditional way of writing separate CSS files. It can quickly cut layouts and reduce the time of switching back and forth between files."
                 },
                 {
                     "title": "Git",
                     "img": "/static/icons/git.svg",
-                    "content":"程式開發人員必備技能，除了會建 Repository、分支以及合併分支以外，還熟悉 CLI 模式底下操作，還有操作過 GitHub Actions。"
+                    "content":"Familiar with branch operations, resolving conflicts and following team Git Flow."
                 },
                 {
                     "title": "API",
                     "img": "/static/icons/api.png",
-                    "content": "身為後端工程師經常會需要開 API 給前端做資料對接，不管是 PHP 接 MySQL 或是 Node.js 接 MongoDB 都沒有問題。"
+                    "content": "Use frameworks to quickly create APIs, including identity authentication and permission separation."
                 }
             ]
         },
@@ -99,48 +84,47 @@
                 {
                     "title": "Ubuntu",
                     "img": "/static/icons/ubuntu.svg",
-                    "content": "不管是在開發或是 docker 都用得到 Ubuntu，會使用 Ubuntu 建立 LNMP、設定排程。"
-                },
-                {
-                    "title": "CentOS",
-                    "img": "/static/icons/centos.svg",
-                    "content": "另外一個常見的 Linux 伺服器版本，同樣也會建立 LNMP，但隨著 CentOS 終止支援後重心也轉往 Ubuntu。"
+                    "content": "The most commonly used Linux version, familiar with permissions and cron job."
                 },
                 {
                     "title": "Docker",
                     "img": "/static/icons/docker.svg",
-                    "content": "製作 Docker 映像檔就像是建立一台伺服器一樣好玩，把專案會用到的環境跟專案原始碼一起包進 Docker，然後到任何一台電腦都能用一樣的條件開啟，因此更適合用於無伺服器架構。"
+                    "content": "Familiar using Docker in developing. And can build Docker image."
                 },
                 {
                     "title": "AWS",
                     "img": "/static/icons/aws.webp",
-                    "content": "使用 AWS 可以更快速的部署應用程式，實現無伺服器架構，省去繁雜維護伺服器的工作，曾使用過：EC2、ECS、ElastiCache、RDS、S3、CloudFront、Route 53。"
+                    "content": "Familiar with EC2, ElastiCache, RDS, S3, CloudFront, Route 53...etc."
                 },
                 {
                     "title": "Shell Script",
                     "img": "/static/icons/terminal.svg",
-                    "content": "寫好 Shell Script 可以使例行性的工作自動執行，例如：SSL 憑證更新、程式自動部署、監控伺服器程式狀態……等。"
+                    "content": "Writing Shell Script can automatically execute routine tasks, such as SSL certificate update, automatic program deployment, monitoring server program status, etc."
                 },
                 {
                     "title": "CI/CD",
                     "img": "/static/icons/pr.svg",
-                    "content": "做好 CI/CD 可以讓專案開發更有效率，這個網站就是使用 GitHub Actions 自動將網站部署到 AWS S3 上面。"
+                    "content": "Automatically deploy programs using Jenkins."
                 }
             ]
         },
-        "personality": "<p style=\"margin-bottom: 0.25rem;\">處女座，要求完美，喜歡寫出漂亮的程式碼，思慮周全，不喜歡為了趕時間只做出「能用」的東西，希望做出的東西是事先經過詳細規劃。注重程式執行穩定性、執行效能，希望可以做出能長久使用的東西。因為趕工做出來的東西往往會因為沒有詳細規劃而存在潛在的問題，這些問題也許在一段時間後才會顯現出來，到時候再修就會很麻煩。</p><p style=\"margin-bottom: 0.25rem;\">資訊業技術變化非常地快，不斷學習新東西才不會讓自己被淘汰，所以我經常強迫自己脫離舒適圈、不斷學習新的東西，也順便訓練頭腦，讓自己的反應及記憶力不要隨著年紀上升而下降。</p>",
+        "personality": "<p style=\"margin-bottom: 0.25rem;\">Focus on writing perfect programs and program execution performance, and hope that the program code is easy to maintain.</p><p style=\"margin-bottom: 0.25rem;\">The information technology industry is changing very fast, and I have to keep learning new things so that I won't be eliminated. Therefore, I always force myself to get out of the comfort zone, keep learning new things, and also train my brain so that my reaction and memory will not decline as I get older.</p><p style=\"margin-bottom: 0.25rem;\">When I was 24, I started improving my English skills to have more opportunities and stand out from other engineers.</p>",
         "portfolio": [
             {
                 "title": "股價行事曆",
                 "desc": "首次嘗試做前端，畫面使用 Tailwind CSS 佈局，前端邏輯使用純 JS，沒有使用任何框架。",
                 "img": "/static/images/stonk.tw.png",
-                "link": "https://stonk.tw"
+                "link": "https://stonk.richen.me"
             }
         ]
     },
     "experience": {
-        "title": "經歷",
+        "title": "Experience",
         "history": [{
+            "company": "奧理科技股份有限公司",
+            "jobtitle":"2022.3 - 2024.3｜後端工程師",
+            "jobs":["CRM 系統維護，包含：除錯、邏輯調整、效能優化","CRM 系統功能開發，包含：開 API、規劃資料表欄位、提議增加功能","點餐系統維護、邏輯調整","報表功能開發維護，處理大量資料，使用 Queue 優化報表處理時間","系統重構，將 CodeIgniter Legacy Code 重構成 Laravel OOP Code","資料清洗，為進行大數據分析，執行資料清洗，留下必要欄位並將缺少資料補齊","開發內部工具協助 CRM 系統設定、偵錯"]
+        },{
             "company": "飛象資訊股份有限公司",
             "jobtitle":"2019.10 - 2021.7｜後端工程師／維運工程師／網管",
             "jobs":["使用 Yii 框架製作競標網站（含：管理員介面、發文管理系統、留言、網站橫幅編輯）","使用 Yii 框架製作公車預約平台（含：簡訊發送功能、預約結果查詢、每日預約場次人數報表產生、寄信功能）","電子廠形象網站客製化 Magento 型錄上傳管理套件","使用 Laravel 框架製作呼吸分析平台（含：API 串接、Docker 技術）","電商網站客製化 Magento 前後端分離（含：API 串接、Docker 技術、單元測試、CI/CD、AWS 應用）","導入 Docker 技術至開發團隊","協助導入 ISO27001 至公司","主機維護（PHP 版本升級、資料庫定期備份、SSL 憑證更新）"]

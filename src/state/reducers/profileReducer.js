@@ -1,10 +1,10 @@
 import defaultavatar from "../../images/defaultAvatar.png";
 
 const profileInit = {
-  name: "微日成",
+  name: "Wayne Richen",
   default_avatar: defaultavatar,
   birthday: "1999/09/01",
-  job: "網站工程師",
+  job: "Website Engineer",
   status: "",
   socialmedia: [],
 };
