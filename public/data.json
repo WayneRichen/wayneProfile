@@ -47,6 +47,16 @@
                     "content": "Familiar with various functions of Laravel, such as Collection, Helper, Middleware, Queue, Job...etc. Have used Laravel to process large amounts of data, such as data cleaning."
                 },
                 {
+                    "title": "MySQL",
+                    "img": "/static/icons/mysql.svg",
+                    "content": "Familiar with data query and table schema design."
+                },
+                {
+                    "title": "MongoDB",
+                    "img": "/static/icons/mongodb.svg",
+                    "content": "Use MongoDB to store logs. Familiar with data query with indexes."
+                },
+                {
                     "title": "JavaScript",
                     "img": "/static/icons/js.svg",
                     "content": "Familiar with vanilla JavaScript and understand the usage of frontend frameworks such as React."
@@ -94,7 +104,7 @@
                 {
                     "title": "AWS",
                     "img": "/static/icons/aws.webp",
-                    "content": "Familiar with EC2, ElastiCache, RDS, S3, CloudFront, Route 53...etc."
+                    "content": "Familiar with EC2, ElastiCache, RDS, S3, CloudFront, Route 53...etc. Have knowledge of load balancing and cache."
                 },
                 {
                     "title": "Shell Script",
@@ -108,7 +118,7 @@
                 }
             ]
         },
-        "personality": "<p style=\"margin-bottom: 0.25rem;\">Focus on writing perfect programs and program execution performance, and hope that the program code is easy to maintain.</p><p style=\"margin-bottom: 0.25rem;\">The information technology industry is changing very fast, and I have to keep learning new things so that I won't be eliminated. Therefore, I always force myself to get out of the comfort zone, keep learning new things, and also train my brain so that my reaction and memory will not decline as I get older.</p><p style=\"margin-bottom: 0.25rem;\">When I was 24, I started improving my English skills to have more opportunities and stand out from other engineers.</p>",
+        "personality": "<p style=\"margin-bottom: 0.25rem;\">Focus on writing perfect programs and care about program execution performance, and hope that the code is easy to maintain.</p><p style=\"margin-bottom: 0.25rem;\">The information technology industry is changing very fast, and I have to keep learning new things so that I won't be eliminated. Therefore, I always force myself to get out of the comfort zone, keep learning new things, and also train my brain so that my reaction and memory will not decline as I get older.</p><p style=\"margin-bottom: 0.25rem;\">When I was 24, I started improving my English skills to have more opportunities and stand out from other engineers.</p>",
         "portfolio": [
             {
                 "title": "股價行事曆",
@@ -123,7 +133,7 @@
         "history": [{
             "company": "奧理科技股份有限公司",
             "jobtitle":"2022.3 - 2024.3｜後端工程師",
-            "jobs":["CRM 系統維護，包含：除錯、邏輯調整、效能優化","CRM 系統功能開發，包含：開 API、規劃資料表欄位、提議增加功能","點餐系統維護、邏輯調整","報表功能開發維護，處理大量資料，使用 Queue 優化報表處理時間","系統重構，將 CodeIgniter Legacy Code 重構成 Laravel OOP Code","資料清洗，為進行大數據分析，執行資料清洗，留下必要欄位並將缺少資料補齊","開發內部工具協助 CRM 系統設定、偵錯"]
+            "jobs":["CRM 系統維護，包含：除錯、邏輯調整、效能優化","CRM 系統功能開發，包含：開 API、規劃資料表欄位、提議增加功能","點餐系統維護、邏輯調整","報表功能開發維護，處理大量資料，使用 Queue 優化報表處理時間","系統重構，將 CodeIgniter Legacy Code 重構成 Laravel OOP Code","資料清洗，為進行大數據分析，執行資料清洗，留下必要欄位並將缺少資料補齊","開發內部工具協助 CRM 系統設定、偵錯","協助客戶依照不同需求產生客製化報表"]
         },{
             "company": "飛象資訊股份有限公司",
             "jobtitle":"2019.10 - 2021.7｜後端工程師／維運工程師／網管",

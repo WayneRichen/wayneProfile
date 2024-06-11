@@ -18,6 +18,9 @@ module.exports = {
       },
       boxShadow: {
         white: '0 0 30px -3px white',
+      },
+      minHeight: {
+        '64': '16rem',
       }
     },
   },

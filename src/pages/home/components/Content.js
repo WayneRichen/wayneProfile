@@ -34,7 +34,7 @@ const Content = ({ state, changeSkillActive }) => {
     case 0:
     case 1: //不管是"開發技能"還是"維運技能"都是走這個 case，底下會再判斷
       content = (
-        <div className="grid grid-cols-2 h-full divide-x divide-white">
+        <div className="grid grid-cols-2 min-h-64 divide-x divide-white">
           <div className="grid grid-cols-3 sm:grid-cols-7 h-0 mr-0.5 sm:mr-1">
             {skillTab().skill.map((skill, index) => (
               <div
@@ -125,10 +125,10 @@ const Content = ({ state, changeSkillActive }) => {
   return (
     <div className="max-w-screen-lg w-full mx-auto">
       <div
-        className="relative content w-full bg-gray-400 h-72 bg-no-repeat bg-center"
+        className="content w-full bg-gray-400 min-h-64 bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${contentbackground})` }}
       >
-        <div className="backdrop-filter backdrop-brightness-25 backdrop-contrast-100 backdrop-blur-xs w-full h-full p-1 sm:p-4">
+        <div className="backdrop-filter backdrop-brightness-25 backdrop-contrast-100 backdrop-blur-xs w-full min-h-64 p-1 sm:p-4">
           {content}
         </div>
       </div>
