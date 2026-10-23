@@ -1,7 +1,7 @@
 {
     "profile": {
         "name": "Wayne Richen",
-        "avatar": "/static/images/unnamed.jpg",
+        "avatar": "/static/images/avatar.jpeg",
         "birthday": "1999/09/01",
         "job": "Website Engineer",
         "status": "",
@@ -131,6 +131,10 @@
     "experience": {
         "title": "Experience",
         "history": [{
+            "company": "菲律賓商酷派數位科技有限公司台灣分公司",
+            "jobtitle":"2024.7 - 2026.10｜後端工程師",
+            "jobs":["金流串接模組化，建立 template，確保後續金流串接皆遵循一致的規範與標準","Redis lock 處理高併發場景","單元測試，使用 VCR 套件重現 API Request，避免每次跑測試都打 API","升級 Laravel 5.8 到 Laravel 11，包含：PHP 版本升級、套件更新、程式碼重構以符合 Laravel Request-Controller-Service 架構","後台圖形化測試工具開發，使非工程師也能進行測試","使用 Laravel 的 Job 與 Queue 來處理大量資料，避免使用者等待，並使用 Horizon 監控","建立統一的錯誤回報架構，將所有緊急錯誤傳送至 Slack","引入 Laravel Telescope，並為 telescope_entries 增加索引以提升效能", "效能優化：針對 slow query、列表進行多次效能調整，包含 index 新增與 AJAX 非同步取得資料","參與 Code review 互相確保程式碼品質","從無到有建立驗證系統：設計資料表、Google 登入（id_token 驗證）、JWT 設計與實作、裝置註冊 / 綁定 / 解除綁定、使用者封鎖機制、Challenge 規範設計、防止短時間重複 Challenge（10 秒內）、多次登入請求只保留最後一組 Challenge、FCM 登入推播"]
+        },{
             "company": "奧理科技股份有限公司",
             "jobtitle":"2022.3 - 2024.3｜後端工程師",
             "jobs":["CRM 系統維護，包含：除錯、邏輯調整、效能優化","CRM 系統功能開發，包含：開 API、規劃資料表欄位、提議增加功能","點餐系統維護、邏輯調整","報表功能開發維護，處理大量資料，使用 Queue 優化報表處理時間","系統重構，將 CodeIgniter Legacy Code 重構成 Laravel OOP Code","資料清洗，為進行大數據分析，執行資料清洗，留下必要欄位並將缺少資料補齊","開發內部工具協助 CRM 系統設定、偵錯","協助客戶依照不同需求產生客製化報表"]
